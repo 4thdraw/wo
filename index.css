@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'PilseungGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/PilseungGothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'PilseungGothic';
+    background: rgb(255,0,116);
+    background: linear-gradient(30deg, rgba(255,0,116,1) 47%, rgba(228,255,0,1) 51%);
+    height: 100vh;
+    color: aqua;
+}   
+.bg{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/CK_tid020001285.png) center no-repeat;
+    min-width: 300px;
+    width: 100%;
+    max-width: 800px;
+    background-size: 100% auto;
+    margin: 0 auto;
+}
+
+.text{
+    color: aqua;
+    padding-left: 4%;
+    transform: translateY(5%);
+    line-height: 2;
+}
